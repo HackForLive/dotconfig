@@ -1,0 +1,7 @@
+
+
+* to control brightness via brightnessctl without sudo add yourself to video group
+> sudo gpasswd -a <user> video
+
+* to control asus fans via asusctl, setup/ install from source
+https://gitlab.com/asus-linux/asusctl
